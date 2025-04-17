@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Christianna Sequeira</div>
+            <div class="burger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>        
+                <li><a href="education.html">Education</a></li>        
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="workshop_conference.html">Workshops & Conferences</a></li>        
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="intro-section">
+        <div class="intro-text">
+            <h1>Publications</h1>
+            <p style="margin-bottom: 2rem;">Add something here.</p>
+            
+            <h2 style="margin-top: 2rem;">2025</h2>
+            <p><b>SFU SEE Honours Undergraduate Thesis: </b> <a href="" target="_blank">Designing a Humidity Control System for a Lunar Greenhouse</a></p>
+            <h2 style="margin-top: 2rem;">2022</h2>
+            <p><b>Personal Anthology: </b> <a href="https://www.blurb.ca/b/11290045-where-we-grow" target="_blank">Where We Grow</a></p>
+            <h2 style="margin-top: 2rem;">2021</h2>
+            <p><b>BCCIC EZine - Leave No One Behind: </b> <a href="https://www.bccic.ca/press-release-lnob-ezine/" target="_blank">Platform for Diverse Youth Voices (Pages 122-125)</a></p>
+        </div>
+    </header>
+
+    <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+          navContainer.classList.toggle('menu-open');
+        }
+      </script>
+
+</body>
+</html>
