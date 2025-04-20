@@ -3,9 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Christianna Sequeira</div>
+            <div class="burger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>        
+                <li><a href="education.html">Education</a></li>        
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="workshop_conference.html">Workshops & Conferences</a></li>        
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="intro-section">
+        <div class="intro-text">
+            <h1>Projects</h1>
+            <p style="margin-bottom: 2rem;">I have had the privilege of speaking about my undergrad experiences on many occasions, both in an academic setting and outside of the classroom. This section of my portfolio highlights some of my accomplishments that have been recognized by SFU as well as previous employers.</p>
+        </div>
+    </header>
+
+    <section class="projects-grid">
+        <div class="project-card">
+          <a href="project-honours-thesis.html">
+            <img src="images/projects/Working_model_image_final.JPEG" alt="Project 1">
+          </a>
+          <div class="project-info">
+            <h3>Lunar Humidity Control System</h3>
+            <p>September 2024 - April 2025</p>
+            <p>Honours Thesis · Canadian Space Agency</p>
+          </div>
+        </div>
+      
+        <div class="project-card">
+          <a href="project-capstone.html">
+            <img src="images/projects/capstone_pic.png" alt="Project 2">
+          </a>
+          <div class="project-info">
+            <h3>Environmental Data Monitoring Network</h3>
+            <p>September 2024 - April 2025</p>
+            <p>Capstone · SFU Computational Sustainability Lab</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+            <a href="project-csa-sys-eng.html">
+              <img src="images/projects/SysML_Block_Definition_Diagram__Diagrams__Breakdown.png" alt="Project 2">
+            </a>
+            <div class="project-info">
+              <h3>Canadarm 3 System Architecture</h3>
+              <p>January 2024 - December 2024</p>
+              <p>Internship · Canadian Space Agency</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="project-csa-green-operations.html">
+              <img src="images/projects/retscreen_example.jpg" alt="Project 2">
+            </a>
+            <div class="project-info">
+              <h3>Building Energy Analysis</h3>
+              <p>May 2022 - April 2023</p>
+              <p>Internship · Canadian Space Agency</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="project-stapler.html">
+              <img src="images/projects/stapler.png" alt="Project 2">
+            </a>
+            <div class="project-info">
+              <h3>Sustainable Stapler Design</h3>
+              <p>December 2022</p>
+              <p>Course Project · SEE 100</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="project-composter.html">
+              <img src="images/projects/composter.png" alt="Project 2">
+            </a>
+            <div class="project-info">
+              <h3>Household Electric Composter</h3>
+              <p>April 2023</p>
+              <p>Course Project · SEE 111</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="project-iaq-meter.html">
+              <img src="images/projects/iaq_meter.png" alt="Project 2">
+            </a>
+            <div class="project-info">
+              <h3>IAQ Meter Sensor Software Design</h3>
+              <p>January 2023 - August 2023</p>
+              <p>Design Team · SFU WiCT</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="project-ev-coolant.html">
+              <img src="images/projects/ev_coolant.png" alt="Project 2">
+            </a>
+            <div class="project-info">
+              <h3>EV Coolant System</h3>
+              <p>April 2023</p>
+              <p>Course Project · SFU 225</p>
+            </div>
+        </div>
+      
+        <!-- Add more projects as needed -->
+      </section>
+
+    <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+          navContainer.classList.toggle('menu-open');
+        }
+      </script>
+
 </body>
 </html>

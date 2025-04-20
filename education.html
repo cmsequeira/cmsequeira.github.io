@@ -3,9 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Christianna Sequeira</div>
+            <div class="burger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>        
+                <li><a href="education.html">Education</a></li>        
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="workshop_conference.html">Workshops & Conferences</a></li>        
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="intro-section">
+        <div class="intro-text">
+            <h1 style="margin-bottom: 2rem;">Education</h1>
+            <div class="education-entry">
+                <img src="images/SFULogo.jpg" alt="SFU School Logo">
+                <div class="education-text">
+                  <h2>Simon Fraser University</h2>
+                  <p class="degree">Bachelor of Applied Science Honours, Sustainable Energy Engineering</p>
+                  <p class="date">Sept 2018 – August 2025</p>
+                  <p class="description">Minor in International Studies with a concentration in Environmental and Economic Development</p>
+                </div>
+            </div>
+        
+            <div class="education-entry">
+                <img src="images/BerkeleyLogo.jpg" alt="UC Berkeley School Logo">
+                <div class="education-text">
+                  <h2>University of California, Berkeley</h2>
+                  <p class="degree">Academic Exchange</p>
+                  <p class="date">June 2021 - August 2021</p>
+                  <p class="description">Academic Exchange with classes in Environmental Engineering, Philosophy and Anthropology</p>
+                </div>
+            </div>
+
+            <h1 style="margin-bottom: 2rem;">Certificates & Licenses</h1>
+            <div class="education-entry">
+                <img src="images/ised_bilingual.jpeg" alt="ISED Canada Logo">
+                <div class="education-text">
+                  <h2>Amateur Radio Operator Class License</h2>
+                  <p class="degree">Innovation, Science and Economic Development (ISED) Canada</p>
+                  <p class="date">June 2024</p>
+                  <p class="description">Basic with Honours</p>
+                </div>
+            </div>
+
+            <div class="education-entry">
+                <img src="images/epflLogo.png" alt="EPFL Logo">
+                <div class="education-text">
+                  <h2>Space Mission Design and Operations Certificate</h2>
+                  <p class="degree">École Polytechnique Fédérale de Lausanne (EPFL)</p>
+                  <p class="date">June 2024</p>
+                  <p class="description">Online Course from Edx</p>
+                </div>
+            </div>
+
+            <div class="education-entry">
+                <img src="images/retscreen_logo.jpg" alt="RETScreen Logo">
+                <div class="education-text">
+                  <h2>Certified RETScreen Expert (CRE) Course Completion</h2>
+                  <p class="degree">RETScreen Software</p>
+                  <p class="date">June 2022</p>
+                  <p class="description">Online Course</p>
+                </div>
+            </div>
+
+            <div class="education-entry">
+                <img src="images/harvardLogo.jpg" alt="Harvard Logo">
+                <div class="education-text">
+                  <h2>Leaders of Learning Certificate</h2>
+                  <p class="degree">Harvard University</p>
+                  <p class="date">February 2021</p>
+                  <p class="description">Online Course from Edx</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+          navContainer.classList.toggle('menu-open');
+        }
+      </script>
+
 </body>
 </html>

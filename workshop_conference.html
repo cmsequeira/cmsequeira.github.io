@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Christianna Sequeira</div>
+            <div class="burger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>        
+                <li><a href="education.html">Education</a></li>        
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="workshop_conference.html">Workshops & Conferences</a></li>        
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="intro-section">
+        <div class="intro-text">
+            <h1 style="margin-bottom: 2rem;">Workshops</h1>
+            <div class="education-entry">
+                <img src="images/work-conf/esa-logo.jpg" alt="ESA Logo">
+                <div class="education-text">
+                  <h2>ESA Spacecraft Testing Workshop</h2>
+                  <p class="degree">European Space Agency (ESA)</p>
+                  <p class="date">July 2024</p>
+                  <p class="description">add here</p>
+                </div>
+            </div>
+        
+            <div class="education-entry">
+                <img src="images/work-conf/csa-logo.jpg" alt="CSA Logo">
+                <div class="education-text">
+                  <h2>CSA Cubesat Electronics Assembly Workshop</h2>
+                  <p class="degree">Canadian Space Agency</p>
+                  <p class="date">April 2024</p>
+                  <p class="description">add here</p>
+                </div>
+            </div>
+
+            <h1 style="margin-bottom: 2rem;">Conferences</h1>
+            <div class="education-entry">
+                <img src="images/" alt="Space Ops Logo">
+                <div class="education-text">
+                  <h2>2025 Space Ops Conference</h2>
+                  <p class="degree">Canadian Aeronautics and Space Institute (CASI) & Canadian Space Agency (CSA)</p>
+                  <p class="date">May 2025</p>
+                  <p class="description">add here</p>
+                </div>
+            </div>
+
+            <div class="education-entry">
+                <img src="images/work-conf/seds canada 2024.png" alt="SEDS Conference Logo 2024">
+                <div class="education-text">
+                  <h2>2024 Canadian Space Conference</h2>
+                  <p class="degree">Students for the Exploration and Development of Space Canada (SEDS-Canada)</p>
+                  <p class="date">January 2024</p>
+                  <p class="description">add here</p>
+                </div>
+            </div>
+
+            <div class="education-entry">
+                <img src="images/work-conf/seds canada 2023.jpg" alt="SEDS Conference Logo 2023">
+                <div class="education-text">
+                  <h2>2023 Canadian Space Conference</h2>
+                  <p class="degree">Students for the Exploration and Development of Space Canada (SEDS-Canada)</p>
+                  <p class="date">January 2023</p>
+                  <p class="description">add here</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+          navContainer.classList.toggle('menu-open');
+        }
+      </script>
+
 </body>
 </html>
